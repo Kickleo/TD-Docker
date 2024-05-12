@@ -28,7 +28,8 @@ services:
       - frontend
 
   db:
-    image: mariadb
+    image: mariadb:latest
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: docker
