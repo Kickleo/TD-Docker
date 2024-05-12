@@ -51,7 +51,8 @@ services:
       - PMA_HOST=db
       - PMA_USER=root
       - PMA_PASSWORD=root
-
+    networks:
+      - backend
 
 networks:
   backend:
