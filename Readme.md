@@ -42,3 +42,10 @@ Exemples :
 
 Exemples à retrouver sur Docker Hub, utilisateur `leotepedelen`
 
+## Accéder à l'application
+
+Dans le navigateur accéder à l'adresse `localhost:8081`
+
+## Accéder au phpmyadmin
+
+Dans le navigateur accéder à l'adresse `localhost:3307`
